@@ -41,7 +41,7 @@ public:
   {
   }
 
-  int8_t compute(float& targetAngle, float& currAngle, double& dt)
+  int8_t compute(const float& targetAngle, const float& currAngle, double& dt)
   {
     float err = targetAngle - currAngle;
     if (std::abs(err) < THRESHOLD) return 0;

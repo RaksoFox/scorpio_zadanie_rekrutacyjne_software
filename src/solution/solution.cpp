@@ -15,7 +15,6 @@ MotorDriver yAxisDriver(680.0, 0.4);
 
 int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
 {
-
   auto motor1 = tester->get_motor_1();
   auto motor2 = tester->get_motor_2();
   auto commands = tester->get_commands();
@@ -31,10 +30,14 @@ int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
   });
 
 
-  commands->add_data_callback([](const Point& point)
+  commands->add_data_callback([&preempt](const Point& point)
   {
     std::cout << "Command point: (" << point.x << ", " << point.y << ", " << point.z << ")\n";
-    targetAngles.store(point_to_angle(point));
+    if (preempt)
+    {
+      // TODO: implement that s**t xD
+    }
+    else targetAngles.store(point_to_angle(point));
   });
 
   // Tests
