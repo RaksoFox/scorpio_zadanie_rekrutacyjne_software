@@ -2,7 +2,7 @@
 #include <iostream>
 #include <ostream>
 
-constexpr float THRESHOLD = 0.009;
+constexpr float THRESHOLD = 0.004;
 
 constexpr float PI = 3.14159265358979323846;
 
@@ -47,12 +47,13 @@ public:
     if (std::abs(err) < THRESHOLD) return 0;
     prevErr = err;
 
+    if (std::abs(err) > PI) err = -err;
 
     float derivative = (err - prevErr) / dt;
     const int output = (Kp * err + Kd * derivative);
 
     if (output > 127 || err > 0.012) return 127;
-    if (output < -128 || err > 0.012) return -128;
+    if (output < -128 || (err < 0 && std::abs(err) > 0.012)) return -128;
     return static_cast<int8_t>(output);
   }
 };

@@ -10,8 +10,8 @@ std::atomic<Angles> targetAngles;
 std::atomic<Angles> currPosition;
 
 // requires tuning -_-
-MotorDriver zAxisDriver(680.0, 0.0);
-MotorDriver yAxisDriver(680.0, 0.0);
+MotorDriver zAxisDriver(680.0, 0.4);
+MotorDriver yAxisDriver(680.0, 0.4);
 
 int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
 {
