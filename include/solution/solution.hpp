@@ -1,15 +1,56 @@
 #include <cmath>
+#include <iostream>
+#include <ostream>
 
-struct Angles {
-  double x;  // X angle
-  double y;  // Y angle
+constexpr float THRESHOLD = 0.004;
+
+constexpr float PI = 3.14159265358979323846;
+
+struct Angles
+{
+  float z; // Z axis rotation
+  float y; // Y axis rotation
 };
 
-Angles point_to_angle(Point point)
+struct Motors
+{
+  int8_t z; // Z axis speed
+  int8_t y; // Y axis speed
+};
+
+Angles point_to_angle(const Point& p)
 {
   Angles angles;
-  angles.x = atan2(point.x, -point.y);
-  angles.y = atan2(point.z, sqrt(point.x * point.x + point.y * point.y)); // x*x kinda faster than pow(x, 2)
-
+  angles.z = std::atan2(p.x, -p.y);
+  angles.y = std::atan2(p.z, std::sqrt(p.x * p.x + p.y * p.y)); // x*x kinda faster than pow(x, 2)
   return angles;
 }
+
+// Expected motors to be way faster xDDD
+class PD
+{
+private:
+  double Kp, Kd;
+  double integral;
+  double prevErr;
+
+public:
+  PD(float Kp, float Kd) :
+    Kp(Kp), Kd(Kd),
+    integral(0.0),
+    prevErr(0.0)
+  {
+  }
+
+  int8_t compute(float targetAngle, float currAngle, float dt)
+  {
+    double err = targetAngle - currAngle;
+    if (std::abs(err) < THRESHOLD) return 0;
+    float derivative = (err - prevErr) / dt;
+    prevErr = err;
+    const int output = (Kp * err + Kd * derivative);
+    if (output > 127 || err > 0.012) return 127;
+    if (output < -128 || err > 0.012) return -128;
+    return static_cast<int8_t>(output);
+  }
+};
