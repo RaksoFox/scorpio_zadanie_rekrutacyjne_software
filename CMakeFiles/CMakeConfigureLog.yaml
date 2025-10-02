@@ -1,0 +1,2974 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+    searched_directories:
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/cl"
+      - "C:/Program Files/PowerShell/7/cl.com"
+      - "C:/Program Files/PowerShell/7/cl.exe"
+      - "C:/Program Files/PowerShell/7/cl"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/cl"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/cl"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/cl.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/cl"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/cl.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/cl"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/cl"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/cl"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/cl.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/cl.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/cl"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/cl.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/cl"
+      - "C:/Users/Rakso/scoop/apps/python/current/cl.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/cl"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/cl.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/cl"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/cl.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/cl"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/cl.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/cl.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/cl"
+      - "C:/Users/Rakso/scoop/shims/cl.com"
+      - "C:/Users/Rakso/scoop/shims/cl.exe"
+      - "C:/Users/Rakso/scoop/shims/cl"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/cl.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/cl.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/cl"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/cl.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/cl.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/cl"
+      - "C:/Users/Rakso/.dotnet/tools/cl.com"
+      - "C:/Users/Rakso/.dotnet/tools/cl.exe"
+      - "C:/Users/Rakso/.dotnet/tools/cl"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link"
+      - "C:/Users/Rakso/scoop/shims/lld-link.com"
+      - "C:/Users/Rakso/scoop/shims/lld-link.exe"
+      - "C:/Users/Rakso/scoop/shims/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.com"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/mt"
+      - "C:/Program Files/PowerShell/7/mt.com"
+      - "C:/Program Files/PowerShell/7/mt.exe"
+      - "C:/Program Files/PowerShell/7/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/mt"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/mt"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/mt.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/mt"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/mt.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/mt"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/mt"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/mt"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/mt.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/mt"
+      - "C:/Users/Rakso/scoop/apps/python/current/mt.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/mt"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/mt.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/mt"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/mt.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/mt"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/mt.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/mt.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/mt"
+      - "C:/Users/Rakso/scoop/shims/mt.com"
+      - "C:/Users/Rakso/scoop/shims/mt.exe"
+      - "C:/Users/Rakso/scoop/shims/mt"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/mt.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/mt.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/mt"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/mt.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/mt.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/mt"
+      - "C:/Users/Rakso/.dotnet/tools/mt.com"
+      - "C:/Users/Rakso/.dotnet/tools/mt.exe"
+      - "C:/Users/Rakso/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link"
+      - "C:/Users/Rakso/scoop/shims/lld-link.com"
+      - "C:/Users/Rakso/scoop/shims/lld-link.exe"
+      - "C:/Users/Rakso/scoop/shims/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.com"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/sbin/"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/bin/"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/sbin/"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/rc"
+      - "C:/Program Files/PowerShell/7/rc.com"
+      - "C:/Program Files/PowerShell/7/rc.exe"
+      - "C:/Program Files/PowerShell/7/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/rc.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/rc"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/rc.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/rc"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/rc"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/rc.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/rc"
+      - "C:/Users/Rakso/scoop/apps/python/current/rc.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/rc"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/rc.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/rc"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/rc.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/rc"
+      - "C:/Users/Rakso/scoop/shims/rc.com"
+      - "C:/Users/Rakso/scoop/shims/rc.exe"
+      - "C:/Users/Rakso/scoop/shims/rc"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/rc.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/rc.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/rc"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/rc.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/rc.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/rc"
+      - "C:/Users/Rakso/.dotnet/tools/rc.com"
+      - "C:/Users/Rakso/.dotnet/tools/rc.exe"
+      - "C:/Users/Rakso/.dotnet/tools/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/bin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/bin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/bin/rc"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/sbin/rc.com"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/sbin/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/sbin/rc"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/rc.com"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/rc.exe"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/rc"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/bin/rc.com"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/bin/rc.exe"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/bin/rc"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/sbin/rc.com"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/sbin/rc.exe"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/sbin/rc"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/rc.com"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/rc.exe"
+      - "C:/Program Files (x86)/scorpio_recruitment_task/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Rakso/scoop/apps/cmake/current"
+        - "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-qtfoz5"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-qtfoz5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-qtfoz5'
+        
+        Run Build Command(s): C:/Users/Rakso/scoop/apps/cmake/current/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_fb019\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_fb019.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_fb019.dir\\build
+        Building C object CMakeFiles/cmTC_fb019.dir/CMakeCCompilerABI.c.obj
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_fb019.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-qtfoz5 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmE72A.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_fb019.exe
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_fb019.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_fb019.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmE91F.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_fb019.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_fb019.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_fb019.dir/manifest.res CMakeFiles\\cmTC_fb019.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_fb019.dir/manifest.res CMakeFiles\\cmTC_fb019.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: 'C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_fb019.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_fb019.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmE91F.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_fb019.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_fb019.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-i9nq94"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-i9nq94"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-i9nq94'
+        
+        Run Build Command(s): C:/Users/Rakso/scoop/apps/cmake/current/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ec482\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ec482.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ec482.dir\\build
+        Building C object CMakeFiles/cmTC_ec482.dir/testCCompiler.c.obj
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ec482.dir\\testCCompiler.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-i9nq94 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmEAB5.tmp
+        testCCompiler.c
+        Linking C executable cmTC_ec482.exe
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ec482.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ec482.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmEB52.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_ec482.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_ec482.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_ec482.dir/manifest.res CMakeFiles\\cmTC_ec482.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_ec482.dir/manifest.res CMakeFiles\\cmTC_ec482.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: 'C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_ec482.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_ec482.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nmEB52.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_ec482.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ec482.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link"
+      - "C:/Users/Rakso/scoop/shims/lld-link.com"
+      - "C:/Users/Rakso/scoop/shims/lld-link.exe"
+      - "C:/Users/Rakso/scoop/shims/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.com"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/"
+    found: "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/"
+      - "C:/Users/Rakso/scoop/apps/python/current/"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/"
+      - "C:/Users/Rakso/scoop/shims/"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/"
+      - "C:/Users/Rakso/.dotnet/tools/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/GnuPG/bin/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/mingw/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/vscode/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/anaconda3/current/App/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/dotnet-sdk/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/temurin8-jre/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gpg4win/current/Gpg4win/bin/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/Scripts/lld-link"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/python/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/gnupg/current/bin/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/lld-link"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.com"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link.exe"
+      - "C:/Users/Rakso/scoop/apps/nvm/current/nodejs/nodejs/lld-link"
+      - "C:/Users/Rakso/scoop/shims/lld-link.com"
+      - "C:/Users/Rakso/scoop/shims/lld-link.exe"
+      - "C:/Users/Rakso/scoop/shims/lld-link"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/Rakso/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.com"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link.exe"
+      - "C:/Users/Rakso/.platformio/penv/Scripts/lld-link"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.com"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Rakso/.dotnet/tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\..\\GnuPG\\bin"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\mingw\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\vscode\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\anaconda3\\current\\App\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\dotnet-sdk\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\temurin8-jre\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gpg4win\\current\\Gpg4win\\bin"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current\\Scripts"
+        - "C:\\Users\\Rakso\\scoop\\apps\\python\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\gnupg\\current\\bin"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current"
+        - "C:\\Users\\Rakso\\scoop\\apps\\nvm\\current\\nodejs\\nodejs"
+        - "C:\\Users\\Rakso\\scoop\\shims"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\Rakso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Rakso\\.platformio\\penv\\Scripts\\"
+        - "C:\\Users\\Rakso\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/scorpio_recruitment_task"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ifil34"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ifil34"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ifil34'
+        
+        Run Build Command(s): C:/Users/Rakso/scoop/apps/cmake/current/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_52989\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_52989.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_52989.dir\\build
+        Building C object CMakeFiles/cmTC_52989.dir/CMakeCCompilerABI.c.obj
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_52989.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-ifil34 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm536D.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_52989.exe
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_52989.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_52989.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm5524.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_52989.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_52989.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_52989.dir/manifest.res CMakeFiles\\cmTC_52989.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_52989.dir/manifest.res CMakeFiles\\cmTC_52989.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: 'C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_52989.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_52989.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm5524.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_52989.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_52989.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Rakso/scoop/apps/cmake/current/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-0wbobo"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-0wbobo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-0wbobo'
+        
+        Run Build Command(s): C:/Users/Rakso/scoop/apps/cmake/current/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_b737f\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b737f.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b737f.dir\\build
+        Building C object CMakeFiles/cmTC_b737f.dir/testCCompiler.c.obj
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_b737f.dir\\testCCompiler.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-0wbobo --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm564C.tmp
+        testCCompiler.c
+        Linking C executable cmTC_b737f.exe
+        	C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b737f.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b737f.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm56E9.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_b737f.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_b737f.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_b737f.dir/manifest.res CMakeFiles\\cmTC_b737f.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_b737f.dir/manifest.res CMakeFiles\\cmTC_b737f.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: 'C:\\Users\\Rakso\\scoop\\apps\\cmake\\current\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b737f.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b737f.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm56E9.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b737f.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b737f.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ceilia"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ceilia"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-ceilia'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_5f64b\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_5f64b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5f64b.dir\\build
+        Building C object CMakeFiles/cmTC_5f64b.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5f64b.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-ceilia --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm528E.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_5f64b.exe
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_5f64b.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5f64b.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm532B.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_5f64b.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_5f64b.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_5f64b.dir/manifest.res CMakeFiles\\cmTC_5f64b.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_5f64b.dir/manifest.res CMakeFiles\\cmTC_5f64b.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_5f64b.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_5f64b.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm532B.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_5f64b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5f64b.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-orihdw"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-orihdw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-orihdw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_9d955\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9d955.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9d955.dir\\build
+        Building C object CMakeFiles/cmTC_9d955.dir/testCCompiler.c.obj
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9d955.dir\\testCCompiler.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-orihdw --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm54C0.tmp
+        testCCompiler.c
+        Linking C executable cmTC_9d955.exe
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9d955.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9d955.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm555D.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9d955.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9d955.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_9d955.dir/manifest.res CMakeFiles\\cmTC_9d955.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_9d955.dir/manifest.res CMakeFiles\\cmTC_9d955.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9d955.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9d955.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm555D.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9d955.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9d955.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      2
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      LINK : fatal error LNK1104: cannot open file 'LIBCMT.lib'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-fdx78b"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-fdx78b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-fdx78b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_9709b\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9709b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9709b.dir\\build
+        Building C object CMakeFiles/cmTC_9709b.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9709b.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-fdx78b --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm178E.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_9709b.exe
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9709b.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9709b.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm183B.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9709b.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9709b.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_9709b.dir/manifest.res CMakeFiles\\cmTC_9709b.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_9709b.dir/manifest.res CMakeFiles\\cmTC_9709b.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_9709b.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_9709b.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm183B.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_9709b.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_9709b.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-xkjxo1"
+      binary: "C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-xkjxo1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Rakso/Documents/Projects/scorpio_zadanie_rekrutacyjne_software/CMakeFiles/CMakeScratch/TryCompile-xkjxo1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_b357c\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b357c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b357c.dir\\build
+        Building C object CMakeFiles/cmTC_b357c.dir/testCCompiler.c.obj
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_b357c.dir\\testCCompiler.c.obj.d --working-dir=C:\\Users\\Rakso\\Documents\\Projects\\scorpio_zadanie_rekrutacyjne_software\\CMakeFiles\\CMakeScratch\\TryCompile-xkjxo1 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm1A0F.tmp
+        testCCompiler.c
+        Linking C executable cmTC_b357c.exe
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b357c.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b357c.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm1ABC.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_b357c.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_b357c.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_b357c.dir/manifest.res CMakeFiles\\cmTC_b357c.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_b357c.dir/manifest.res CMakeFiles\\cmTC_b357c.dir/manifest.rc" failed (exit code 0) with the following output:
+        no such file or directoryNMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_b357c.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo @CMakeFiles\\cmTC_b357c.dir\\objects1.rsp @C:\\Users\\Rakso\\AppData\\Local\\Temp\\nm1ABC.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_b357c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_b357c.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...

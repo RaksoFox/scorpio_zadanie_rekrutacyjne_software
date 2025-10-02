@@ -1,12 +1,18 @@
 #include "tester.hpp"
+#include "solution.hpp"
 
-// You can remove or add any includes you need
 #include <chrono>
 #include <iostream>
 #include <thread>
 
-int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt) {
-  // Short example you can remove it
+// for tests
+constexpr double PI = 3.14159265358979323846;
+
+Angles currentAngles;
+
+int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
+{
+  /* Short example you can remove it
   std::cout << (preempt ? "Preempt" : "Queue") << '\n';
   auto motor1 = tester->get_motor_1();
   auto motor2 = tester->get_motor_2();
@@ -23,6 +29,15 @@ int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt) {
   motor1->send_data(100);
   motor2->send_data(-50);
   std::this_thread::sleep_for(std::chrono::milliseconds(250));
-  //
+  */
+
+  std::cout<<"test:"<<point_to_angle(Point{1, 0, 0}).x* 180.0 / PI<<std::endl;
+  std::cout<<"test:"<<point_to_angle(Point{1, 0, 1}).y* 180.0 / PI<<std::endl;
+  std::cout<<"test:"<<point_to_angle(Point{1, 1, 0}).x* 180.0 / PI<<std::endl;
+  std::cout<<"test:"<<point_to_angle(Point{1, 1, 1}).y* 180.0 / PI<<std::endl;
+
+  std::this_thread::sleep_for(std::chrono::milliseconds(250));
   return 0;
 }
+
+
