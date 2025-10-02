@@ -2,7 +2,7 @@
 #include <iostream>
 #include <ostream>
 
-constexpr float THRESHOLD = 0.004;
+constexpr float THRESHOLD = 0.009;
 
 constexpr float PI = 3.14159265358979323846;
 
@@ -21,34 +21,36 @@ struct Motors
 Angles point_to_angle(const Point& p)
 {
   Angles angles;
-  angles.z = std::atan2(p.x, -p.y);
+  angles.z = std::atan2(p.y, p.x);
   angles.y = std::atan2(p.z, std::sqrt(p.x * p.x + p.y * p.y)); // x*x kinda faster than pow(x, 2)
+  angles.z = (angles.z >= 0) ? angles.z : 2 * PI + angles.z;
   return angles;
 }
 
 // Expected motors to be way faster xDDD
-class PD
+class MotorDriver
 {
 private:
   double Kp, Kd;
-  double integral;
   double prevErr;
 
 public:
-  PD(float Kp, float Kd) :
+  MotorDriver(float Kp, float Kd) :
     Kp(Kp), Kd(Kd),
-    integral(0.0),
     prevErr(0.0)
   {
   }
 
-  int8_t compute(float targetAngle, float currAngle, float dt)
+  int8_t compute(float& targetAngle, float& currAngle, double& dt)
   {
-    double err = targetAngle - currAngle;
+    float err = targetAngle - currAngle;
     if (std::abs(err) < THRESHOLD) return 0;
-    float derivative = (err - prevErr) / dt;
     prevErr = err;
+
+
+    float derivative = (err - prevErr) / dt;
     const int output = (Kp * err + Kd * derivative);
+
     if (output > 127 || err > 0.012) return 127;
     if (output < -128 || err > 0.012) return -128;
     return static_cast<int8_t>(output);
