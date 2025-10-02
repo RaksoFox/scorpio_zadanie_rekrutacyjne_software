@@ -1,8 +1,10 @@
 #include <cmath>
 #include <iostream>
 #include <ostream>
+#include <algorithm>
 
-constexpr float THRESHOLD = 0.004;
+constexpr float THRESHOLD = 0.008;
+constexpr float ALPHA = 0.1;
 
 constexpr float PI = 3.14159265358979323846;
 
@@ -33,11 +35,13 @@ class MotorDriver
 private:
   double Kp, Kd;
   double prevErr;
+  double prevOut;
 
 public:
   MotorDriver(float Kp, float Kd) :
     Kp(Kp), Kd(Kd),
-    prevErr(0.0)
+    prevErr(0.0),
+    prevOut(0.0)
   {
   }
 
@@ -50,10 +54,14 @@ public:
     if (std::abs(err) > PI) err = -err;
 
     float derivative = (err - prevErr) / dt;
-    const int output = (Kp * err + Kd * derivative);
+    float output = (Kp * err + Kd * derivative);
 
-    if (output > 127 || err > 0.012) return 127;
-    if (output < -128 || (err < 0 && std::abs(err) > 0.012)) return -128;
-    return static_cast<int8_t>(output);
+    if (err > 0.012) output = 127;
+    if (err < 0 && std::abs(err) > 0.012) output = -128;
+
+    // smoothing I guess
+    output = ALPHA * output + (1.0 - ALPHA) * prevOut + 10;
+    prevOut = output;
+    return static_cast<int8_t>(std::clamp(static_cast<int>(output), -128, 127));
   }
 };

@@ -10,10 +10,10 @@ std::atomic<Angles> targetAngles;
 std::atomic<Angles> currPosition;
 
 // requires tuning -_-
-MotorDriver zAxisDriver(680.0, 0.4);
-MotorDriver yAxisDriver(680.0, 0.4);
+MotorDriver zAxisDriver(680.0, 0.2);
+MotorDriver yAxisDriver(480.0, 0.2);
 
-int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
+int solver(const std::shared_ptr<backend_interface::Tester>& tester, bool preempt)
 {
   auto motor1 = tester->get_motor_1();
   auto motor2 = tester->get_motor_2();
@@ -71,7 +71,7 @@ int solver(std::shared_ptr<backend_interface::Tester> tester, bool preempt)
     std::cout << "Target positions\n z: " << targetAngles.load().z << " y: " << targetAngles.load().y << std::endl;
     std::cout << "Motors speeds\n z: " << static_cast<int>(mtr.z) << " y: " << static_cast<int>(mtr.y) << std::endl;
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    std::this_thread::sleep_for(std::chrono::milliseconds(10));
   }
 
   return 0;
