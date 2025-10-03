@@ -21,6 +21,7 @@ int solver(const std::shared_ptr<backend_interface::Tester>& tester, bool preemp
   auto motor2 = tester->get_motor_2();
   auto commands = tester->get_commands();
   auto prevTime = std::chrono::steady_clock::now();
+  targetAngles.store(Angles{0,0});
 
   motor1->add_data_callback([](const uint16_t& encoder_value) {
     currPosition.store(Angles{static_cast<float>(encoder_value) * 2 * PI / 4095, currPosition.load().y});
@@ -53,8 +54,8 @@ int solver(const std::shared_ptr<backend_interface::Tester>& tester, bool preemp
     motor2->send_data(mtr.y);
 
     if (!preempt && mtr.z == 0 && mtr.y == 0 &&
-      std::abs(position.y - target.y) < 2*DEDZONE &&
-      std::abs(position.z - target.z) < 2*DEDZONE) {
+      std::abs(position.y - target.y) < 2 * DEDZONE &&
+      std::abs(position.z - target.z) < 2 * DEDZONE) {
       if (!anglesQueue.empty()) {
         // std::this_thread::sleep_for(std::chrono::milliseconds(STOP_DELAY));
         targetAngles.store(anglesQueue.front());
