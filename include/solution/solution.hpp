@@ -48,6 +48,7 @@ public:
     // use optimal route
     if (std::abs(err) > PI) err = (err > 1 ? -1.f : 1.f) * (2 * PI - std::abs(err));
 
+    // Should rewrite it to just interpolated move with specyfic breaking distance -_- no need for PID type of solution
     float derivative = (err - prevErr) / dt;
     float outSpeed = (Kp * err + Kd * derivative);
     prevErr = err;
