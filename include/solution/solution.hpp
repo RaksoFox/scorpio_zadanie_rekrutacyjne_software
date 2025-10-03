@@ -33,7 +33,7 @@ Angles point_to_angle(const Point& p) {
 class MotorDriver {
 private:
   double Kp, Kd;
-  double prevErr;
+  float prevErr;
   float prevOut;
 
 public:
@@ -45,7 +45,7 @@ public:
   int8_t compute(const float& targetAngle, const float& currAngle, double& dt) {
     float err = targetAngle - currAngle;
     // use optimal route
-    if (std::abs(err) > PI) err = (err > 1 ? -1 : 1) * (2 * PI - std::abs(err));
+    if (std::abs(err) > PI) err = (err > 1 ? -1.f : 1.f) * (2 * PI - std::abs(err));
 
     float derivative = (err - prevErr) / dt;
     float outSpeed = (Kp * err + Kd * derivative);
