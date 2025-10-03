@@ -44,17 +44,16 @@ public:
 
   int8_t compute(const float& targetAngle, const float& currAngle, double& dt) {
     float err = targetAngle - currAngle;
-    prevErr = err;
-
     // use optimal route
-    if (std::abs(err) > PI) err = -err;
+    if (std::abs(err) > PI) err = (err > 1 ? -1 : 1) * (2 * PI - std::abs(err));
 
     float derivative = (err - prevErr) / dt;
     float outSpeed = (Kp * err + Kd * derivative);
+    prevErr = err;
 
-    if (std::abs(err) < DEDZONE) outSpeed = 0;
     if (err > THRESHOLD) outSpeed = 130;
     if (err < 0 && std::abs(err) > THRESHOLD) outSpeed = -132;
+    if (std::abs(err) <= DEDZONE) outSpeed = 0;
     // smoothing I guess
     outSpeed = ALPHA * outSpeed + (1.0f - ALPHA) * prevOut;
     prevOut = outSpeed;
