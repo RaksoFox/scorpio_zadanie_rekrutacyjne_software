@@ -34,7 +34,7 @@ class MotorDriver {
 private:
   double Kp, Kd;
   double prevErr;
-  double prevOut;
+  float prevOut;
 
 public:
   MotorDriver(float Kp, float Kd) :
@@ -54,9 +54,9 @@ public:
 
     if (std::abs(err) < DEDZONE) outSpeed = 0;
     if (err > THRESHOLD) outSpeed = 130;
-    if (err < 0 && std::abs(err) > THRESHOLD) outSpeed = -130;
+    if (err < 0 && std::abs(err) > THRESHOLD) outSpeed = -132;
     // smoothing I guess
-    outSpeed = ALPHA * outSpeed + (1.0 - ALPHA) * prevOut;
+    outSpeed = ALPHA * outSpeed + (1.0f - ALPHA) * prevOut;
     prevOut = outSpeed;
     return static_cast<int8_t>(std::clamp(static_cast<int>(outSpeed), -128, 127));
   }
