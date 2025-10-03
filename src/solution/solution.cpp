@@ -6,6 +6,7 @@
 #include <iostream>
 #include <thread>
 #include <vector>
+#include <cmath>
 
 std::atomic<Angles> targetAngles;
 std::atomic<Angles> currPosition;
@@ -52,8 +53,8 @@ int solver(const std::shared_ptr<backend_interface::Tester>& tester, bool preemp
     motor2->send_data(mtr.y);
 
     if (!preempt && mtr.z == 0 && mtr.y == 0 &&
-      position.y >= target.y - DEDZONE && position.y <= target.y + DEDZONE &&
-      position.z >= target.z - DEDZONE && position.z <= target.z + DEDZONE) {
+      std::abs(position.y - target.y) < 2*DEDZONE &&
+      std::abs(position.z - target.z) < 2*DEDZONE) {
       if (!anglesQueue.empty()) {
         // std::this_thread::sleep_for(std::chrono::milliseconds(STOP_DELAY));
         targetAngles.store(anglesQueue.front());
