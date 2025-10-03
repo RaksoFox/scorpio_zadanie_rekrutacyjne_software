@@ -6,6 +6,7 @@
 constexpr float DEDZONE = 0.008;
 constexpr float THRESHOLD = 0.012;
 constexpr float ALPHA = 0.08;
+// constexpr int STOP_DELAY = 1000;
 
 constexpr float PI = 3.14159265358979323846;
 
@@ -52,8 +53,8 @@ public:
     float outSpeed = (Kp * err + Kd * derivative);
 
     if (std::abs(err) < DEDZONE) outSpeed = 0;
-    if (err > THRESHOLD) outSpeed = 127;
-    if (err < 0 && std::abs(err) > THRESHOLD) outSpeed = -128;
+    if (err > THRESHOLD) outSpeed = 130;
+    if (err < 0 && std::abs(err) > THRESHOLD) outSpeed = -130;
     // smoothing I guess
     outSpeed = ALPHA * outSpeed + (1.0 - ALPHA) * prevOut;
     prevOut = outSpeed;
