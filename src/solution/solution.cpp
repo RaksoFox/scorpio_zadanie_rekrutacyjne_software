@@ -51,7 +51,9 @@ int solver(const std::shared_ptr<backend_interface::Tester>& tester, bool preemp
     motor1->send_data(-mtr.z);
     motor2->send_data(mtr.y);
 
-    if (!preempt && mtr.z == 0 && mtr.y == 0) {
+    if (!preempt && mtr.z == 0 && mtr.y == 0 &&
+      position.y >= target.y - DEDZONE && position.y <= target.y + DEDZONE &&
+      position.z >= target.z - DEDZONE && position.z <= target.z + DEDZONE) {
       if (!anglesQueue.empty()) {
         // std::this_thread::sleep_for(std::chrono::milliseconds(STOP_DELAY));
         targetAngles.store(anglesQueue.front());
