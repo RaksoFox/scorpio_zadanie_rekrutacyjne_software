@@ -3,7 +3,7 @@
 #include <ostream>
 #include <algorithm>
 
-constexpr float DEDZONE = 0.008;
+constexpr float DEDZONE = 0.01;
 constexpr float THRESHOLD = 0.012;
 constexpr float ALPHA = 0.08;
 // constexpr int STOP_DELAY = 1000;
