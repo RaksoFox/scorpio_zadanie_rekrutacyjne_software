@@ -3,6 +3,7 @@
 #include <ostream>
 #include <algorithm>
 
+// Maybe add dynamic counting of error based on last reads? Faster refresh rate bigger error???
 constexpr float DEDZONE = 0.01;
 constexpr float THRESHOLD = 0.012;
 constexpr float ALPHA = 0.08;
